@@ -1,0 +1,93 @@
+/* RESPONSIVE FOR 1024px DISPLAY */
+@media only screen and (min-width: 992px) {
+  .p-price .p1::before {
+    top: 18px;
+    left: 30%;
+  }
+  .p-price .p2::before {
+    top: 18px;
+    left: 20%;
+  }
+  .p-price .p3::before {
+    top: 18px;
+    left: 20%;
+  }
+  .p-price .p4::before {
+    top: 18px;
+    left: 20%;
+  }
+}
+
+/* RESPONSIVE FOR 992px DISPLAY */
+@media only screen and (max-width: 992px) {
+  .contact-form {
+    width: 90%;
+  }
+  .banner-text {
+    padding-right: 0px;
+  }
+  .easy-customize .img-content img {
+    height: 500px;
+    margin-top: 60px;
+    width: 100%;
+  }
+  .theme .theme-btn button:last-child {
+    margin-top: 15px;
+  }
+}
+
+/* RESPONSIVE FOR 768px DISPLAY */
+@media only screen and (max-width: 767px) {
+  .left-content,
+  .right-content {
+    text-align: center;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .features-item {
+    text-align: center;
+    margin: 40px 0 !important;
+    padding: 0 50px;
+  }
+  .testimonial {
+    text-align: center;
+  }
+  .easy-customize .text-content {
+    text-align: center;
+  }
+  .p-price .p1::before {
+    top: 18px;
+    left: 38%;
+  }
+  .p-price .p2::before {
+    top: 18px;
+    left: 30%;
+  }
+  .p-price .p3::before {
+    top: 18px;
+    left: 30%;
+  }
+  .p-price .p4::before {
+    top: 18px;
+    left: 30%;
+  }
+}
+
+/* RESPONSIVE FOR 480px DISPLAY */
+@media only screen and (max-width: 480px) {
+  .contact-form {
+    width: 90%;
+    margin-bottom: 0;
+  }
+  .banner-text h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  .easy-customize .img-content img {
+    margin-top: 0;
+  }
+}

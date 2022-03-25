@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/*=============================
+    Header Section Start 
+===============================*/
+header {
+  background-image: url(../img/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-size: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+}
+.nav-link {
+  text-align: center;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 20px !important;
+  font-weight: 600;
+}
+.nav-link:hover {
+  color: #008ed6 !important;
+  background: url(../img/devider.png) center bottom no-repeat;
+  font-weight: 600;
+}
+.nav-item {
+  margin-left: 16px;
+}
+
+/*=============================
+    Banner Section Start 
+===============================*/
+
+.banner-text {
+  padding: 140px 0;
+  padding-right: 40px;
+  width: 100%;
+}
+.banner-text h6 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.banner-text h1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-text p {
+  color: dimgrey;
+  font-weight: 400;
+}
+.banner-text .banner-btn button {
+  padding: 7px 12px;
+  border: 1px solid dimgrey;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px !important;
+  margin-right: 15px;
+  transition: 0.5s all;
+  border-radius: 4px;
+}
+.banner-text .banner-btn button:hover {
+  background: #008ed6;
+  border: 1px solid transparent;
+}
+.btn-1 {
+  background: #008ed6 !important;
+  border: 1px solid transparent !important;
+  transition: 0.5s all;
+}
+.btn-1:hover {
+  background: transparent !important;
+  border: 1px solid dimgrey !important;
+}
+
+/*=============================
+    Features Section Start 
+===============================*/
+.features {
+  background: #fff;
+  padding: 80px 0 !important;
+  border-bottom: 1px solid #dddddd;
+  width: 100%;
+}
+.title {
+  text-align: center;
+}
+.title h6 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.title h1 {
+  font-weight: 600;
+}
+.features-item {
+  text-align: center;
+  margin: 80px 0 !important;
+}
+.features-item i {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  font-size: 25px;
+  color: #008ed6;
+  border: 2px solid #a9a9a9;
+  border-radius: 50%;
+}
+.features-item h3 {
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.features-item p {
+  color: #a9a9a9;
+}
+
+/*=============================
+    Details Section Start 
+===============================*/
+.details {
+  margin: 80px 0;
+  width: 100%;
+}
+.details .left-content img {
+  height: 500px;
+  width: auto;
+}
+.details .right-content {
+  padding: 30px 0;
+}
+.details .right-content h6 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.details .right-content h3 {
+  font-weight: 600;
+  font-size: 35px;
+}
+.details .right-content img {
+  padding: 10px 0;
+}
+.details .right-content p {
+  color: #a9a9a9;
+  padding: 10px 0;
+}
+.list-content {
+  padding: 5px 0;
+}
+.details .right-content .icon i {
+  color: #008ed6;
+  font-size: 20px;
+}
+.details .right-content .list-text h5 {
+  font-size: 16px;
+}
+
+/*=============================
+  Easy Customize Section Start 
+===============================*/
+.easy-customize {
+  background: #f2f2f2;
+  padding: 80px 0;
+  width: 100%;
+}
+.easy-customize .text-content {
+  padding: 90px 10px;
+}
+.easy-customize .text-content h6 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.easy-customize .text-content h3 {
+  font-weight: 600;
+  font-size: 35px;
+}
+.easy-customize .text-content img {
+  padding: 10px 0;
+}
+.easy-customize .text-content p {
+  color: #a9a9a9;
+  padding: 10px 0;
+  padding-right: 15px;
+}
+.easy-customize .img-content img {
+  height: 450px;
+  width: 100%;
+}
+
+/*=============================
+  Testimonial Section Start 
+===============================*/
+
+.testimonial {
+  padding: 80px 0;
+  background-image: url(../img/banner-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.testimonial .title h6 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.testimonial .title h3 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #fff;
+}
+.testimonial .comment-content {
+  margin: 60px 0;
+}
+.testimonial .comment {
+  padding: 0 30px;
+}
+.testimonial .comment p {
+  font-style: italic;
+  color: rgb(226, 226, 226);
+  font-size: 20px;
+}
+.testimonial .comment img {
+  width: 50px;
+  height: 50px;
+}
+.testimonial .comment h5 {
+  color: rgb(214, 211, 211);
+  font-size: 14px;
+}
+.testimonial .comment h6 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/*=============================
+  Theme Section Start 
+===============================*/
+.theme {
+  padding: 50px 0;
+  background: #000;
+  width: 100%;
+}
+.theme h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+.theme h2 span {
+  font-size: 30px;
+  font-weight: 200;
+}
+.theme .theme-btn button {
+  padding: 7px 12px;
+  border: 1px solid dimgrey;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px !important;
+  margin-right: 15px;
+  transition: 0.5s all;
+  border-radius: 4px;
+}
+.theme .theme-btn button:last-child {
+  margin-right: 0;
+}
+.theme .theme-btn button:hover {
+  background: #008ed6;
+  border: 1px solid transparent;
+}
+.btn-1 {
+  background: #008ed6 !important;
+  border: 1px solid transparent !important;
+  transition: 0.5s all;
+}
+.btn-1:hover {
+  background: transparent !important;
+  border: 1px solid dimgrey !important;
+}
+
+/*=============================
+  plan Section Start 
+===============================*/
+.plans {
+  text-align: center;
+  padding: 80px 0;
+  width: 100%;
+}
+.plans .title h6 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.plans .title h3 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #000;
+}
+.p-table {
+  border: 1px solid #d4d4d4;
+  text-align: center;
+}
+.p-cat {
+  padding: 16px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.p-cat h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.p-price {
+  padding: 16px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.p-price h1 {
+  font-size: 70px;
+  font-weight: 600;
+  position: relative;
+}
+.p-price .p1::before {
+  position: absolute;
+  content: "$";
+  top: 18px;
+  left: 35%;
+  font-size: 25px;
+}
+.p-price .p2::before {
+  position: absolute;
+  content: "$";
+  top: 18px;
+  left: 27%;
+  font-size: 28px;
+}
+.p-price .p3::before {
+  position: absolute;
+  content: "$";
+  top: 18px;
+  left: 27%;
+  font-size: 28px;
+}
+.p-price .p4::before {
+  position: absolute;
+  content: "$";
+  top: 18px;
+  left: 26%;
+  font-size: 28px;
+}
+.p-price p {
+  color: #a9a9a9;
+}
+.p-desc {
+  padding: 16px;
+}
+.p-desc .desc {
+  margin: 20px 14px;
+  color: #a9a9a9;
+  font-size: 16px;
+}
+.p-desc button {
+  padding: 7px 12px;
+  margin: 15px;
+  border: 1px solid #d4d4d4;
+  background: transparent;
+  color: #008ed6;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px !important;
+  margin-right: 15px;
+  transition: 0.5s all;
+  border-radius: 4px;
+}
+.p-desc button:hover {
+  background: #008ed6;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.p-table:hover {
+  transition: 0.5s all;
+}
+.p-table:hover .p-cat h2 {
+  color: #008ed6;
+}
+.p-table:hover .p-price {
+  background: #008ed6;
+}
+.p-table:hover .p-price h1,
+.p-table:hover .p-price p {
+  color: #fff;
+}
+.p-table:hover .p-desc button {
+  background: #008ed6;
+  color: #fff;
+}
+
+/*=============================
+  Contact Section Start 
+===============================*/
+.contact {
+  text-align: center;
+  padding: 80px 0px;
+  width: 100%;
+  background: #f2f2f2;
+}
+.contact.title h6 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.contact .title h3 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #000;
+}
+.content-t {
+  padding: 40px;
+}
+.text i {
+  font-size: 40px;
+  color: #008ed6;
+}
+.text p {
+  font-size: 16px;
+  padding: 20px 0;
+  color: #a9a9a9;
+}
+.form-contact {
+  z-index: 9999;
+}
+.contact-form {
+  background: rgba(201, 194, 194, 0.7);
+  width: 70%;
+  padding: 40px 40px 30px 20px;
+  margin: auto;
+  border-radius: 5px;
+}
+.form-group .form-control {
+  margin: 10px;
+  background: rgb(122, 122, 122);
+  color: #ffffff;
+  /* border: 1px solid #929292 !important; */
+}
+.form-control::placeholder {
+  color: white;
+}
+.massage {
+  padding: 10px 10px 100px 10px;
+}
+.massage-btn {
+  margin: 20px;
+  padding: 7px 12px;
+  border: none;
+  background: #008ed6;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px !important;
+  margin-right: 15px;
+  transition: 0.5s all;
+  border-radius: 4px;
+}
+.massage-btn:hover {
+  background: #036da1;
+}
+/*=============================
+  Map Section Start 
+===============================*/
+.map {
+  margin-top: -150px;
+  z-index: -3 !important;
+}
+/*=============================
+  Footer Section Start 
+===============================*/
+footer {
+  background: #000;
+  text-align: center;
+  padding: 15px 0;
+}
+footer .fab {
+  font-size: 22px;
+  padding-right: 15px;
+  cursor: pointer;
+  color: #b9b8b8;
+  padding-top: 20px;
+  transition: 0.5s all;
+}
+footer .fab:hover {
+  color: #008ed6;
+}
+footer p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #b9b8b8;
+  font-size: 16px;
+  padding-top: 10px;
+}
+footer h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
